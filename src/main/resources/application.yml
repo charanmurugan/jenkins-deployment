@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://dpg-d1lmjmur433s73dti1e0-a.oregon-postgres.render.com:5432/jenkinsdeployment
+    username: charan
+    password: Fe7ORZgma2zDq7yxjS4IqCHgTxh7zAia
